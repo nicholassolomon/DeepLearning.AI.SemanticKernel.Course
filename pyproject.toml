@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "deeplearning-ai-semantickernel-course"
+version = "0.1.0"
+description = ""
+authors = ["Nick Solomon <nick.solomon@americaneagle.com>"]
+readme = "README.md"
+packages = [{include = "deeplearning"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.0.1"
+transformers = "^4.33.2"
+semantic-kernel = "^0.3.12.dev0"
+ipykernel = "^6.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
